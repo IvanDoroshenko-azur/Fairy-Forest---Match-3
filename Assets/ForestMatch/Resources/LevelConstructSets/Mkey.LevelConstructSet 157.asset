@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey.LevelConstructSet 157
+  m_EditorClassIdentifier: 
+  textTutorial: To break this item, collect 3 in a row next to it 2 times
+  OffMatch_ID: ec030000eb030000e803000000000000000000000000000000000000
+  vertSize: 6
+  horSize: 6
+  distX: 0
+  distY: 0
+  scale: 0.95
+  backGroundNumber: 1
+  levelMission:
+    description: To break this item, collect 3 in a row next to it 2 times
+    timeConstrain: 0
+    movesConstrain: 15
+    scoreTarget: 0
+    targets:
+      list:
+      - id: 100003
+        count: 4
+      - id: 1006
+        count: 20
+      - id: 1001
+        count: 20
+  tutorialPos:
+  - {x: 0.76949984, y: 0.76950014}
+  - {x: 0.76949984, y: -0.76949984}
+  - {x: 2.3084998, y: -0.76949984}
+  - {x: 3.8474996, y: -0.76949984}
+  - {x: 3.8474996, y: 0.76950014}
+  - {x: 3.8474996, y: 0.76950014}
+  - {x: 3.8474996, y: -0.76949984}
+  tutorialCells:
+  - id: 200
+    row: 2
+    column: 3
+  - id: 200
+    row: 3
+    column: 3
+  - id: 200
+    row: 3
+    column: 4
+  - id: 200
+    row: 3
+    column: 5
+  - id: 200
+    row: 2
+    column: 5
+  - id: 201
+    row: 2
+    column: 5
+  - id: 201
+    row: 3
+    column: 5
+  matchedCells: []
+  bombsCells: []
+  blockedCells:
+  - id: 1006
+    row: 2
+    column: 2
+  - id: 1006
+    row: 2
+    column: 1
+  - id: 1006
+    row: 1
+    column: 0
+  - id: 1006
+    row: 3
+    column: 3
+  - id: 1006
+    row: 3
+    column: 4
+  - id: 1006
+    row: 2
+    column: 5
+  disabledCells: []
+  featuredCells: []
+  fallingCells: []
+  overlayCells:
+  - id: 100003
+    row: 3
+    column: 2
+  - id: 100003
+    row: 2
+    column: 3
+  - id: 100003
+    row: 4
+    column: 1
+  - id: 100003
+    row: 1
+    column: 4
+  underlayCells: []

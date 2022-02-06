@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 12a3eaee22c033c4690b40b1482ed7fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3023853649309121022
+    second: __beehive_beehive_dropped_0
+  - first:
+      213: -289054112102999767
+    second: __beehive_beehive_dropped_1
+  - first:
+      213: -2868864196310200722
+    second: __beehive_beehive_dropped_2
+  - first:
+      213: -5826640573266920016
+    second: __beehive_beehive_dropped_3
+  - first:
+      213: -4923466205233500912
+    second: __beehive_beehive_dropped_4
+  - first:
+      213: 1345603895360008324
+    second: __beehive_beehive_dropped_5
+  - first:
+      213: -4622657804730728174
+    second: __beehive_beehive_dropped_6
+  - first:
+      213: 4177531419364970134
+    second: __beehive_beehive_dropped_7
+  - first:
+      213: -4935270917306950762
+    second: __beehive_beehive_dropped_8
+  - first:
+      213: 5154067590872459533
+    second: __beehive_beehive_dropped_9
+  - first:
+      213: -5597269294638931194
+    second: __beehive_beehive_dropped_10
+  - first:
+      213: -779063397163760001
+    second: __beehive_beehive_dropped_11
+  - first:
+      213: -7512245636643933516
+    second: __beehive_beehive_dropped_12
+  - first:
+      213: -4224766395900240375
+    second: __beehive_beehive_dropped_13
+  - first:
+      213: -4866818117862208739
+    second: __beehive_beehive_dropped_14
+  - first:
+      213: 4615775294516827071
+    second: __beehive_beehive_dropped_15
+  - first:
+      213: 6846486295803395631
+    second: __beehive_beehive_dropped_16
+  - first:
+      213: 7946484180122763585
+    second: __beehive_beehive_dropped_17
+  - first:
+      213: 6986974135752218964
+    second: __beehive_beehive_dropped_18
+  - first:
+      213: -6784799717207079774
+    second: __beehive_beehive_dropped_19
+  - first:
+      213: -8643447372254310855
+    second: __beehive_beehive_dropped_20
+  - first:
+      213: -4863024437812637781
+    second: __beehive_beehive_dropped_21
+  - first:
+      213: -4952486761078786
+    second: __beehive_beehive_dropped_22
+  - first:
+      213: 9056664822292875435
+    second: __beehive_beehive_dropped_23
+  - first:
+      213: -4008692648345326726
+    second: __beehive_beehive_dropped_24
+  - first:
+      213: -2645407920567812387
+    second: __beehive_beehive_dropped_25
+  - first:
+      213: -8975968341078977537
+    second: __beehive_beehive_dropped_26
+  - first:
+      213: -3473437452361070476
+    second: __beehive_beehive_dropped_27
+  - first:
+      213: 7287865694473834646
+    second: __beehive_beehive_dropped_28
+  - first:
+      213: 8029492490154777654
+    second: __beehive_beehive_dropped_29
+  - first:
+      213: 8345425778591742326
+    second: __beehive_beehive_dropped_30
+  - first:
+      213: 9034803159842333398
+    second: __beehive_beehive_dropped_31
+  - first:
+      213: -1342969621994584051
+    second: __beehive_beehive_dropped_32
+  - first:
+      213: 7802106196888053597
+    second: __beehive_beehive_dropped_33
+  - first:
+      213: -5160399508611088605
+    second: __beehive_beehive_dropped_34
+  - first:
+      213: -388068395245434767
+    second: __beehive_beehive_dropped_35
+  - first:
+      213: 9148777468855568145
+    second: __beehive_beehive_dropped_36
+  - first:
+      213: 3375450725568167678
+    second: __beehive_beehive_dropped_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3288
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2064924802d1906d0800000000000000
+      internalID: -3023853649309121022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_1
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3288
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9291c3701d21dfbf0800000000000000
+      internalID: -289054112102999767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_2
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 3288
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e081e963fbf28d0800000000000000
+      internalID: -2868864196310200722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_3
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 3288
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdfb8cf44d932fa0800000000000000
+      internalID: -5826640573266920016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_4
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 3288
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01daa6d62955cabb0800000000000000
+      internalID: -4923466205233500912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2192
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b05f0d9b8ca210800000000000000
+      internalID: 1345603895360008324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_6
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2192
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21186dee73509dfb0800000000000000
+      internalID: -4622657804730728174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_7
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 2192
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e484141b299f930800000000000000
+      internalID: 4177531419364970134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_8
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 2192
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b5a97bf35628bb0800000000000000
+      internalID: -4935270917306950762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_9
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 2192
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d096e4e9a2de68740800000000000000
+      internalID: 5154067590872459533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60368dc6b318252b0800000000000000
+      internalID: -5597269294638931194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_11
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1096
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f768b8ac7f53035f0800000000000000
+      internalID: -779063397163760001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_12
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1096
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b23c5225642fb790800000000000000
+      internalID: -7512245636643933516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_13
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 1096
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90edb51c85d9e55c0800000000000000
+      internalID: -4224766395900240375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_14
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 1096
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b436215b6957cb0800000000000000
+      internalID: -4866818117862208739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb313b8cc278e0040800000000000000
+      internalID: 4615775294516827071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_16
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ef0f4030b930f50800000000000000
+      internalID: 6846486295803395631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_17
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 0
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1418a717245974e60800000000000000
+      internalID: 7946484180122763585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_18
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 0
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4595a5835f7b6f060800000000000000
+      internalID: 6986974135752218964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __beehive_beehive_dropped_19
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 0
+        width: 1162
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a483b7ca9c87d1a0800000000000000
+      internalID: -6784799717207079774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

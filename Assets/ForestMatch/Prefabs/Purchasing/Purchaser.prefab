@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6805064042325858477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6805064042325858476}
+  - component: {fileID: 8305786983781986200}
+  - component: {fileID: 3668648054263532111}
+  m_Layer: 0
+  m_Name: Purchaser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6805064042325858476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805064042325858477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 810.9899, y: 1008.53076, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8305786983781986200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805064042325858477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ec709e38c1b53458472a0171a362da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumable:
+  - name: happy pack
+    thingImage: {fileID: 21300000, guid: 3ff2d17dd31f458499c21d736718a9ff, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 0.99
+    thingPriceText: $0.99
+    kProductID: coin_5
+    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: crazy pack
+    thingImage: {fileID: 21300000, guid: 3ff2d17dd31f458499c21d736718a9ff, type: 3}
+    thingLabelImage: {fileID: 21300000, guid: c9f9521dfd700f24faa0ab76761ce216, type: 3}
+    thingCount: 10
+    thingCountText: x 10
+    thingCountOldText: 
+    thingPrice: 9.99
+    thingPriceText: $9.99
+    kProductID: coin_10
+    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: full pack
+    thingImage: {fileID: 21300000, guid: 3ff2d17dd31f458499c21d736718a9ff, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 50
+    thingCountText: x 50
+    thingCountOldText: 
+    thingPrice: 12.99
+    thingPriceText: $12.99
+    kProductID: coin_50
+    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 50
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: giant pack
+    thingImage: {fileID: 21300000, guid: 3ff2d17dd31f458499c21d736718a9ff, type: 3}
+    thingLabelImage: {fileID: 21300000, guid: e33fee85ca34d2447a4e9d0072bf2472, type: 3}
+    thingCount: 100
+    thingCountText: x 100
+    thingCountOldText: 
+    thingPrice: 14.99
+    thingPriceText: $14.99
+    kProductID: coin_100
+    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: crazy pack
+    thingImage: {fileID: 21300000, guid: 15662743114711d499daacddeab576fe, type: 3}
+    thingLabelImage: {fileID: 21300000, guid: e33fee85ca34d2447a4e9d0072bf2472, type: 3}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 9.99
+    thingPriceText: $9.99
+    kProductID: life_5
+    prefab: {fileID: 1904001098064614, guid: 1d761ecaa866f204fb2ab13bf3f065a1, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    shopType: 2
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddLife
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  nonConsumable: []
+  subscriptions: []
+  appKey: com.WhiteSarcazm.ForestMatch3
+  googleKey: com.WhiteSarcazm.ForestMatch3
+--- !u!114 &3668648054263532111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805064042325858477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47521743433cfa84f9eb58296ca58b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

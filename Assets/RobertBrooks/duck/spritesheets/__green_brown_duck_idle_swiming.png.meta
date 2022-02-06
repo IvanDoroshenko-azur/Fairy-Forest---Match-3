@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: 08e622cd6f94aa443aebd370bd462233
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2795883931694853792
+    second: __green_brown_duck_idle_swiming_0
+  - first:
+      213: 1989551291998205880
+    second: __green_brown_duck_idle_swiming_1
+  - first:
+      213: 5800566139211611341
+    second: __green_brown_duck_idle_swiming_2
+  - first:
+      213: -816951759993433943
+    second: __green_brown_duck_idle_swiming_3
+  - first:
+      213: 1805593450089989313
+    second: __green_brown_duck_idle_swiming_4
+  - first:
+      213: 8909841146571553150
+    second: __green_brown_duck_idle_swiming_5
+  - first:
+      213: -3484006468616963084
+    second: __green_brown_duck_idle_swiming_6
+  - first:
+      213: 1069380663865964086
+    second: __green_brown_duck_idle_swiming_7
+  - first:
+      213: -5937865842696054267
+    second: __green_brown_duck_idle_swiming_8
+  - first:
+      213: 2175644828938435614
+    second: __green_brown_duck_idle_swiming_9
+  - first:
+      213: -4871799406424878733
+    second: __green_brown_duck_idle_swiming_10
+  - first:
+      213: 4747932709133707658
+    second: __green_brown_duck_idle_swiming_11
+  - first:
+      213: -8218856316522323999
+    second: __green_brown_duck_idle_swiming_12
+  - first:
+      213: -5701343036621400003
+    second: __green_brown_duck_idle_swiming_13
+  - first:
+      213: 7778745712806278491
+    second: __green_brown_duck_idle_swiming_14
+  - first:
+      213: -3066630848440073420
+    second: __green_brown_duck_idle_swiming_15
+  - first:
+      213: 2142650734340342210
+    second: __green_brown_duck_idle_swiming_16
+  - first:
+      213: 7675519310110775421
+    second: __green_brown_duck_idle_swiming_17
+  - first:
+      213: -5276927493372081491
+    second: __green_brown_duck_idle_swiming_18
+  - first:
+      213: -7381475030782403587
+    second: __green_brown_duck_idle_swiming_19
+  - first:
+      213: -3774934190417729977
+    second: __green_brown_duck_idle_swiming_20
+  - first:
+      213: 7264251973735477549
+    second: __green_brown_duck_idle_swiming_21
+  - first:
+      213: -8037191468236056803
+    second: __green_brown_duck_idle_swiming_22
+  - first:
+      213: -9027218372862267572
+    second: __green_brown_duck_idle_swiming_23
+  - first:
+      213: 1106532312514632392
+    second: __green_brown_duck_idle_swiming_24
+  - first:
+      213: 2913212867346748038
+    second: __green_brown_duck_idle_swiming_25
+  - first:
+      213: -2244208488250272976
+    second: __green_brown_duck_idle_swiming_26
+  - first:
+      213: -1880810007321803180
+    second: __green_brown_duck_idle_swiming_27
+  - first:
+      213: 8428103517664733276
+    second: __green_brown_duck_idle_swiming_28
+  - first:
+      213: -99000821889858722
+    second: __green_brown_duck_idle_swiming_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee4e56f99fcc620800000000000000
+      internalID: 2795883931694853792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7f8f5eb5e4c9b10800000000000000
+      internalID: 1989551291998205880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccfddfbb20cf7050800000000000000
+      internalID: 5800566139211611341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_3
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a016f2e3ba99a4f0800000000000000
+      internalID: -816951759993433943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_4
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4c2692da1ce0910800000000000000
+      internalID: 1805593450089989313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e797e82015d16ab70800000000000000
+      internalID: 8909841146571553150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb3cea639256afc0800000000000000
+      internalID: -3484006468616963084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636f6674c0437de00800000000000000
+      internalID: 1069380663865964086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_8
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a1d2ae976789da0800000000000000
+      internalID: -5937865842696054267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_9
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c7a42e171713e10800000000000000
+      internalID: 2175644828938435614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37116137044e36cb0800000000000000
+      internalID: -4871799406424878733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a896f51b4ab04e140800000000000000
+      internalID: 4747932709133707658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_12
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef16b9b9b1c0fd80800000000000000
+      internalID: -8218856316522323999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_13
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d88717b2c0e0b0800000000000000
+      internalID: -5701343036621400003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_14
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5539e12308a3fb60800000000000000
+      internalID: 7778745712806278491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4338975bd732175d0800000000000000
+      internalID: -3066630848440073420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 543
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1061a9d793cbd10800000000000000
+      internalID: 2142650734340342210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_17
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 543
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ddc9552ce48a60800000000000000
+      internalID: 7675519310110775421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_18
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 543
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa8014376694c6b0800000000000000
+      internalID: -5276927493372081491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_19
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 543
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb9cc7719bbf8990800000000000000
+      internalID: -7381475030782403587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746aca1ba5dbc9bc0800000000000000
+      internalID: -3774934190417729977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_21
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21fe65beaecfc460800000000000000
+      internalID: 7264251973735477549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_22
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d175df741f8267090800000000000000
+      internalID: -8037191468236056803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_23
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f2aa7d7b0e8b280800000000000000
+      internalID: -9027218372862267572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __green_brown_duck_idle_swiming_24
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 583
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca1deb86413b5f00800000000000000
+      internalID: 1106532312514632392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

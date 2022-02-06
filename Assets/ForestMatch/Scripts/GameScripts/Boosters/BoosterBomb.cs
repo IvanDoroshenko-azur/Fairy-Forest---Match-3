@@ -1,0 +1,113 @@
+﻿using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+namespace Mkey
+{
+    public class BoosterBomb: BoosterFunc
+    {
+        [SerializeField]
+        private float speed = 20f;
+        [SerializeField]
+        private int radius = 2;
+
+
+        #region override
+        public override void InitStart ()
+        {
+            
+        }
+
+        public override void ApplyToGrid(GridCell gCell, BoosterObjectData bData, Action completeCallBack)
+        {
+            if (!gCell.IsMatchable)
+            {
+                Booster.ActiveBooster.DeActivateBooster();
+                completeCallBack?.Invoke();
+                return;
+            }
+
+            Booster b = Booster.ActiveBooster;
+            b.AddCount(-1);
+
+            ParallelTween par0 = new ParallelTween();
+            TweenSeq bTS = new TweenSeq();
+            CellsGroup area = GetArea(gCell);
+
+          //  ScoreCollectHandler?.Invoke(area);
+            //move activeBooster
+            float dist = Vector3.Distance(transform.position, gCell.transform.position);
+            bTS.Add((callBack) =>
+            {
+                SimpleTween.Move(gameObject, transform.position, gCell.transform.position, dist / speed).AddCompleteCallBack(() =>
+                {
+                    MSound.PlayClip(0, bData.privateClip);
+                    Destroy(b.SceneObject, 0.25f);
+                    callBack();
+                }).SetEase(EaseAnim.EaseInSine);
+            });
+
+            //apply effect for each cell parallel
+            float delay = 0.0f;
+            foreach (var c in area.Cells)
+            {
+                float d = delay;
+                par0.Add((callBack) =>
+                {
+                    delayAction(gameObject, d,
+                        () =>
+                        {
+                            Creator.InstantiateAnimPrefab(bData.animPrefab, c.transform, c.transform.position, SortingOrder.Booster + 1, true, callBack);
+                        }
+                        );
+
+                });
+                delay += 0.1f;
+            }
+
+            delay = 0.1f;
+            foreach (var c in area.Cells)
+            {
+                float d = delay;
+                par0.Add((callBack) =>
+                {
+                    c.CollectMatch(d, true, false, true, false, MBoard.showBombExplode, MBoard.dragExplode, MBoard.showWhirlWind, callBack);
+                });
+                delay += 0.1f;
+            }
+
+            bTS.Add((callback) =>
+            {
+                par0.Start(() =>
+                {
+                    callback();
+                });
+            });
+
+            bTS.Add((callback) =>
+            {
+                Booster.ActiveBooster.DeActivateBooster();
+                completeCallBack?.Invoke();
+                callback();
+            });
+
+            bTS.Start();
+        }
+
+        public override CellsGroup GetArea(GridCell hitGridCell)
+        {
+            CellsGroup cG = new CellsGroup();
+            List<GridCell> area = MBoard.grid.GetAroundArea(hitGridCell, radius).Cells;
+            cG.Add(hitGridCell);
+        
+            foreach (var item in area)
+            {
+              if(!item.IsDisabled && !item.Blocked) cG.Add(item);
+            }
+
+            return cG;
+        }
+        #endregion override
+    }
+}
+

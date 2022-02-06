@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey.LevelConstructSet 179
+  m_EditorClassIdentifier: 
+  textTutorial: Use boosters. The color bomb booster removes a group of the selected
+    chip.
+  OffMatch_ID: eb030000ec0300000000000000000000000000000000000000000000
+  vertSize: 9
+  horSize: 9
+  distX: 0
+  distY: 0
+  scale: 0.9
+  backGroundNumber: 4
+  levelMission:
+    description: Use boosters. The color bomb booster removes a group of the selected
+      chip.
+    timeConstrain: 0
+    movesConstrain: 24
+    scoreTarget: 0
+    targets:
+      list:
+      - id: 200001
+        count: 72
+  tutorialPos:
+  - {x: -2.916, y: 4.374}
+  tutorialCells:
+  - id: 202
+    row: 1
+    column: 2
+  matchedCells: []
+  bombsCells: []
+  blockedCells: []
+  disabledCells: []
+  featuredCells: []
+  fallingCells: []
+  overlayCells: []
+  underlayCells:
+  - id: 200001
+    row: 6
+    column: 4
+  - id: 200001
+    row: 6
+    column: 5
+  - id: 200001
+    row: 6
+    column: 6
+  - id: 200001
+    row: 5
+    column: 6
+  - id: 200001
+    row: 4
+    column: 6
+  - id: 200001
+    row: 3
+    column: 6
+  - id: 200001
+    row: 2
+    column: 6
+  - id: 200001
+    row: 2
+    column: 5
+  - id: 200001
+    row: 2
+    column: 4
+  - id: 200001
+    row: 2
+    column: 3
+  - id: 200001
+    row: 2
+    column: 2
+  - id: 200001
+    row: 3
+    column: 2
+  - id: 200001
+    row: 4
+    column: 2
+  - id: 200001
+    row: 5
+    column: 2
+  - id: 200001
+    row: 6
+    column: 2
+  - id: 200001
+    row: 6
+    column: 3
+  - id: 200001
+    row: 6
+    column: 1
+  - id: 200001
+    row: 5
+    column: 1
+  - id: 200001
+    row: 4
+    column: 1
+  - id: 200001
+    row: 3
+    column: 1
+  - id: 200001
+    row: 2
+    column: 1
+  - id: 200001
+    row: 1
+    column: 1
+  - id: 200001
+    row: 1
+    column: 2
+  - id: 200001
+    row: 1
+    column: 3
+  - id: 200001
+    row: 1
+    column: 4
+  - id: 200001
+    row: 1
+    column: 5
+  - id: 200001
+    row: 1
+    column: 6
+  - id: 200001
+    row: 1
+    column: 7
+  - id: 200001
+    row: 3
+    column: 7
+  - id: 200001
+    row: 2
+    column: 7
+  - id: 200001
+    row: 4
+    column: 7
+  - id: 200001
+    row: 5
+    column: 7
+  - id: 200001
+    row: 6
+    column: 7
+  - id: 200001
+    row: 7
+    column: 6
+  - id: 200001
+    row: 7
+    column: 3
+  - id: 200001
+    row: 7
+    column: 2
+  - id: 200001
+    row: 7
+    column: 1
+  - id: 200001
+    row: 7
+    column: 5
+  - id: 200001
+    row: 7
+    column: 4
+  - id: 200001
+    row: 7
+    column: 7
+  - id: 200001
+    row: 8
+    column: 6
+  - id: 200001
+    row: 8
+    column: 5
+  - id: 200001
+    row: 8
+    column: 4
+  - id: 200001
+    row: 8
+    column: 3
+  - id: 200001
+    row: 8
+    column: 2
+  - id: 200001
+    row: 8
+    column: 1
+  - id: 200001
+    row: 8
+    column: 0
+  - id: 200001
+    row: 7
+    column: 0
+  - id: 200001
+    row: 6
+    column: 0
+  - id: 200001
+    row: 5
+    column: 0
+  - id: 200001
+    row: 4
+    column: 0
+  - id: 200001
+    row: 3
+    column: 0
+  - id: 200001
+    row: 2
+    column: 0
+  - id: 200001
+    row: 1
+    column: 0
+  - id: 200001
+    row: 0
+    column: 0
+  - id: 200001
+    row: 0
+    column: 1
+  - id: 200001
+    row: 0
+    column: 2
+  - id: 200001
+    row: 0
+    column: 3
+  - id: 200001
+    row: 0
+    column: 4
+  - id: 200001
+    row: 0
+    column: 5
+  - id: 200001
+    row: 0
+    column: 7
+  - id: 200001
+    row: 0
+    column: 6
+  - id: 200001
+    row: 0
+    column: 8
+  - id: 200001
+    row: 1
+    column: 8
+  - id: 200001
+    row: 2
+    column: 8
+  - id: 200001
+    row: 4
+    column: 8
+  - id: 200001
+    row: 5
+    column: 8
+  - id: 200001
+    row: 7
+    column: 8
+  - id: 200001
+    row: 8
+    column: 7
+  - id: 200001
+    row: 8
+    column: 8
+  - id: 200001
+    row: 6
+    column: 8
+  - id: 200001
+    row: 3
+    column: 8

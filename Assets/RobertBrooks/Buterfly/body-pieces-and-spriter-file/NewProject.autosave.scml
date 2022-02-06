@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r7">
+    <folder id="0" name="blue">
+        <file id="0" name="blue/side-body.png" width="869" height="283" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="blue/underwing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="blue/top-wing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="blue/top-down-body.png" width="839" height="200" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="orange">
+        <file id="0" name="orange/top-wing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="orange/underwing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="orange/side-body.png" width="874" height="262" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="orange/top-down-body.png" width="839" height="200" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="white">
+        <file id="0" name="white/top-wing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="white/underwing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="white/side-body.png" width="877" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="white/top-down-body.png" width="839" height="200" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="3" name="purple">
+        <file id="0" name="purple/top-wing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="purple/underwing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="purple/side-body.png" width="874" height="262" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="purple/top-down-body.png" width="839" height="200" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="4" name="yellow">
+        <file id="0" name="yellow/top-wing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="yellow/underwing.png" width="1311" height="872" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="yellow/side-body.png" width="874" height="262" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="yellow/top-down-body.png" width="839" height="200" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="blue-butterfly_side-view">
+        <character_map id="0" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="0" target_folder="1" target_file="2"/>
+        </character_map>
+        <character_map id="1" name="white">
+            <map folder="0" file="2" target_folder="2" target_file="0"/>
+            <map folder="0" file="1" target_folder="2" target_file="1"/>
+            <map folder="0" file="0" target_folder="2" target_file="2"/>
+        </character_map>
+        <character_map id="2" name="purple">
+            <map folder="0" file="2" target_folder="3" target_file="0"/>
+            <map folder="0" file="1" target_folder="3" target_file="1"/>
+            <map folder="0" file="0" target_folder="3" target_file="2"/>
+        </character_map>
+        <character_map id="3" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+            <map folder="0" file="0" target_folder="4" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="345">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="347">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="408">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="5" time="412">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="6" time="500">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="7" time="677">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="8" time="724">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="9" time="727">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="10" time="775">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="11" time="822">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="side-body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-352" y="181"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-592" y="931.727275" scale_y="1.061579"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="0" file="2" x="-592" y="161.201096" scale_y="0.178454"/>
+                </key>
+                <key id="2" time="408" spin="0">
+                    <object folder="0" file="2" x="-592" y="3.108228" scale_y="-0.002741"/>
+                </key>
+                <key id="3" time="412">
+                    <object folder="0" file="1" x="-592" y="-52.644679" scale_y="-0.066641"/>
+                </key>
+                <key id="4" time="500">
+                    <object folder="0" file="1" x="-592" y="-525" angle="0" scale_y="-0.609302"/>
+                </key>
+                <key id="5" time="677" spin="0">
+                    <object folder="0" file="1" x="-592" y="-129.032258" scale_y="-0.155426"/>
+                </key>
+                <key id="6" time="724" spin="0">
+                    <object folder="0" file="1" x="-592" y="25.319748" scale_y="0.021662"/>
+                </key>
+                <key id="7" time="727" spin="0">
+                    <object folder="0" file="2" x="-592" y="166.535414" scale_y="0.183678"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="underwing">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-537.930577" y="770.530308" scale_x="0.97218" scale_y="0.874868"/>
+                </key>
+                <key id="1" time="345" spin="0">
+                    <object folder="0" file="1" x="-537.930577" y="32.468214" scale_x="0.97218" scale_y="0.024692"/>
+                </key>
+                <key id="2" time="347">
+                    <object folder="0" file="2" x="-537.930577" y="-79.600369" scale_x="0.97218" scale_y="-0.104317"/>
+                </key>
+                <key id="3" time="500">
+                    <object folder="0" file="2" x="-537.930577" y="-920" angle="0" scale_x="0.97218" scale_y="-1.070091"/>
+                </key>
+                <key id="4" time="775" spin="0">
+                    <object folder="0" file="2" x="-537.930577" y="9.791669" scale_x="0.97218" scale_y="-0.000364"/>
+                </key>
+                <key id="5" time="822" spin="0">
+                    <object folder="0" file="1" x="-537.930577" y="168.701518" scale_x="0.97218" scale_y="0.182462"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="yellow-butterfly_side-view">
+        <character_map id="0" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="0" target_folder="1" target_file="2"/>
+        </character_map>
+        <character_map id="1" name="white">
+            <map folder="0" file="2" target_folder="2" target_file="0"/>
+            <map folder="0" file="1" target_folder="2" target_file="1"/>
+            <map folder="0" file="0" target_folder="2" target_file="2"/>
+        </character_map>
+        <character_map id="2" name="purple">
+            <map folder="0" file="2" target_folder="3" target_file="0"/>
+            <map folder="0" file="1" target_folder="3" target_file="1"/>
+            <map folder="0" file="0" target_folder="3" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="345">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="347">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="408">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="5" time="412">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="6" time="500">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="7" time="677">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="8" time="724">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="9" time="727">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="10" time="775">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="11" time="822">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="side-body">
+                <key id="0" spin="0">
+                    <object folder="4" file="2" x="-352" y="181"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="4" file="0" x="-592" y="931.727275" scale_y="1.061579"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="4" file="0" x="-592" y="161.201096" scale_y="0.178454"/>
+                </key>
+                <key id="2" time="408" spin="0">
+                    <object folder="4" file="0" x="-592" y="3.108228" scale_y="-0.002741"/>
+                </key>
+                <key id="3" time="412">
+                    <object folder="4" file="1" x="-592" y="-52.644679" scale_y="-0.066641"/>
+                </key>
+                <key id="4" time="500">
+                    <object folder="4" file="1" x="-592" y="-525" angle="0" scale_y="-0.609302"/>
+                </key>
+                <key id="5" time="677" spin="0">
+                    <object folder="4" file="1" x="-592" y="-129.032258" scale_y="-0.155426"/>
+                </key>
+                <key id="6" time="724" spin="0">
+                    <object folder="4" file="1" x="-592" y="25.319748" scale_y="0.021662"/>
+                </key>
+                <key id="7" time="727" spin="0">
+                    <object folder="4" file="0" x="-592" y="166.535414" scale_y="0.183678"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="underwing">
+                <key id="0" spin="0">
+                    <object folder="4" file="1" x="-537.930577" y="770.530308" scale_x="0.97218" scale_y="0.874868"/>
+                </key>
+                <key id="1" time="345" spin="0">
+                    <object folder="4" file="1" x="-537.930577" y="32.468214" scale_x="0.97218" scale_y="0.024692"/>
+                </key>
+                <key id="2" time="347">
+                    <object folder="4" file="0" x="-537.930577" y="-79.600369" scale_x="0.97218" scale_y="-0.104317"/>
+                </key>
+                <key id="3" time="500">
+                    <object folder="4" file="0" x="-537.930577" y="-920" angle="0" scale_x="0.97218" scale_y="-1.070091"/>
+                </key>
+                <key id="4" time="775" spin="0">
+                    <object folder="4" file="0" x="-537.930577" y="9.791669" scale_x="0.97218" scale_y="-0.000364"/>
+                </key>
+                <key id="5" time="822" spin="0">
+                    <object folder="4" file="1" x="-537.930577" y="168.701518" scale_x="0.97218" scale_y="0.182462"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="2" name="purple-butterfly_side-view">
+        <character_map id="0" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="0" target_folder="1" target_file="2"/>
+        </character_map>
+        <character_map id="1" name="white">
+            <map folder="0" file="2" target_folder="2" target_file="0"/>
+            <map folder="0" file="1" target_folder="2" target_file="1"/>
+            <map folder="0" file="0" target_folder="2" target_file="2"/>
+        </character_map>
+        <character_map id="2" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+            <map folder="0" file="0" target_folder="4" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="345">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="347">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="408">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="5" time="412">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="6" time="500">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="7" time="677">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="8" time="724">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="9" time="727">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="10" time="775">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="11" time="822">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="side-body">
+                <key id="0" spin="0">
+                    <object folder="3" file="2" x="-352" y="181"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="3" file="0" x="-592" y="931.727275" scale_y="1.061579"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="3" file="0" x="-592" y="161.201096" scale_y="0.178454"/>
+                </key>
+                <key id="2" time="408" spin="0">
+                    <object folder="3" file="0" x="-592" y="3.108228" scale_y="-0.002741"/>
+                </key>
+                <key id="3" time="412">
+                    <object folder="3" file="1" x="-592" y="-52.644679" scale_y="-0.066641"/>
+                </key>
+                <key id="4" time="500">
+                    <object folder="3" file="1" x="-592" y="-525" angle="0" scale_y="-0.609302"/>
+                </key>
+                <key id="5" time="677" spin="0">
+                    <object folder="3" file="1" x="-592" y="-129.032258" scale_y="-0.155426"/>
+                </key>
+                <key id="6" time="724" spin="0">
+                    <object folder="3" file="1" x="-592" y="25.319748" scale_y="0.021662"/>
+                </key>
+                <key id="7" time="727" spin="0">
+                    <object folder="3" file="0" x="-592" y="166.535414" scale_y="0.183678"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="underwing">
+                <key id="0" spin="0">
+                    <object folder="3" file="1" x="-537.930577" y="770.530308" scale_x="0.97218" scale_y="0.874868"/>
+                </key>
+                <key id="1" time="345" spin="0">
+                    <object folder="3" file="1" x="-537.930577" y="32.468214" scale_x="0.97218" scale_y="0.024692"/>
+                </key>
+                <key id="2" time="347">
+                    <object folder="3" file="0" x="-537.930577" y="-79.600369" scale_x="0.97218" scale_y="-0.104317"/>
+                </key>
+                <key id="3" time="500">
+                    <object folder="3" file="0" x="-537.930577" y="-920" angle="0" scale_x="0.97218" scale_y="-1.070091"/>
+                </key>
+                <key id="4" time="775" spin="0">
+                    <object folder="3" file="0" x="-537.930577" y="9.791669" scale_x="0.97218" scale_y="-0.000364"/>
+                </key>
+                <key id="5" time="822" spin="0">
+                    <object folder="3" file="1" x="-537.930577" y="168.701518" scale_x="0.97218" scale_y="0.182462"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="3" name="white-butterfly_side-vie">
+        <character_map id="0" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="0" target_folder="1" target_file="2"/>
+        </character_map>
+        <character_map id="1" name="purple">
+            <map folder="0" file="2" target_folder="3" target_file="0"/>
+            <map folder="0" file="1" target_folder="3" target_file="1"/>
+            <map folder="0" file="0" target_folder="3" target_file="2"/>
+        </character_map>
+        <character_map id="2" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+            <map folder="0" file="0" target_folder="4" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="345">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="347">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="408">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="5" time="412">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="6" time="500">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="7" time="677">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="8" time="724">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="9" time="727">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="10" time="775">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="11" time="822">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="side-body">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="-352" y="181"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-592" y="931.727275" scale_y="1.061579"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="2" file="0" x="-592" y="161.201096" scale_y="0.178454"/>
+                </key>
+                <key id="2" time="408" spin="0">
+                    <object folder="2" file="0" x="-592" y="3.108228" scale_y="-0.002741"/>
+                </key>
+                <key id="3" time="412">
+                    <object folder="2" file="1" x="-592" y="-52.644679" scale_y="-0.066641"/>
+                </key>
+                <key id="4" time="500">
+                    <object folder="2" file="1" x="-592" y="-525" angle="0" scale_y="-0.609302"/>
+                </key>
+                <key id="5" time="677" spin="0">
+                    <object folder="2" file="1" x="-592" y="-129.032258" scale_y="-0.155426"/>
+                </key>
+                <key id="6" time="724" spin="0">
+                    <object folder="2" file="1" x="-592" y="25.319748" scale_y="0.021662"/>
+                </key>
+                <key id="7" time="727" spin="0">
+                    <object folder="2" file="0" x="-592" y="166.535414" scale_y="0.183678"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="underwing">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="-537.930577" y="770.530308" scale_x="0.97218" scale_y="0.874868"/>
+                </key>
+                <key id="1" time="345" spin="0">
+                    <object folder="2" file="1" x="-537.930577" y="32.468214" scale_x="0.97218" scale_y="0.024692"/>
+                </key>
+                <key id="2" time="347">
+                    <object folder="2" file="0" x="-537.930577" y="-79.600369" scale_x="0.97218" scale_y="-0.104317"/>
+                </key>
+                <key id="3" time="500">
+                    <object folder="2" file="0" x="-537.930577" y="-920" angle="0" scale_x="0.97218" scale_y="-1.070091"/>
+                </key>
+                <key id="4" time="775" spin="0">
+                    <object folder="2" file="0" x="-537.930577" y="9.791669" scale_x="0.97218" scale_y="-0.000364"/>
+                </key>
+                <key id="5" time="822" spin="0">
+                    <object folder="2" file="1" x="-537.930577" y="168.701518" scale_x="0.97218" scale_y="0.182462"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="4" name="orange-butterfly_side-view">
+        <character_map id="0" name="white">
+            <map folder="0" file="2" target_folder="2" target_file="0"/>
+            <map folder="0" file="1" target_folder="2" target_file="1"/>
+            <map folder="0" file="0" target_folder="2" target_file="2"/>
+        </character_map>
+        <character_map id="1" name="purple">
+            <map folder="0" file="2" target_folder="3" target_file="0"/>
+            <map folder="0" file="1" target_folder="3" target_file="1"/>
+            <map folder="0" file="0" target_folder="3" target_file="2"/>
+        </character_map>
+        <character_map id="2" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+            <map folder="0" file="0" target_folder="4" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="248">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="345">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="3" time="347">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="408">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="5" time="412">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="6" time="500">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="7" time="677">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="8" time="724">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="9" time="727">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+                <key id="10" time="775">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="4" z_index="2"/>
+                </key>
+                <key id="11" time="822">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="5" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="side-body">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="-352" y="181"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-592" y="931.727275" scale_y="1.061579"/>
+                </key>
+                <key id="1" time="248" spin="0">
+                    <object folder="1" file="0" x="-592" y="161.201096" scale_y="0.178454"/>
+                </key>
+                <key id="2" time="408" spin="0">
+                    <object folder="1" file="0" x="-592" y="3.108228" scale_y="-0.002741"/>
+                </key>
+                <key id="3" time="412">
+                    <object folder="1" file="1" x="-592" y="-52.644679" scale_y="-0.066641"/>
+                </key>
+                <key id="4" time="500">
+                    <object folder="1" file="1" x="-592" y="-525" angle="0" scale_y="-0.609302"/>
+                </key>
+                <key id="5" time="677" spin="0">
+                    <object folder="1" file="1" x="-592" y="-129.032258" scale_y="-0.155426"/>
+                </key>
+                <key id="6" time="724" spin="0">
+                    <object folder="1" file="1" x="-592" y="25.319748" scale_y="0.021662"/>
+                </key>
+                <key id="7" time="727" spin="0">
+                    <object folder="1" file="0" x="-592" y="166.535414" scale_y="0.183678"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="underwing">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="-537.930577" y="770.530308" scale_x="0.97218" scale_y="0.874868"/>
+                </key>
+                <key id="1" time="345" spin="0">
+                    <object folder="1" file="1" x="-537.930577" y="32.468214" scale_x="0.97218" scale_y="0.024692"/>
+                </key>
+                <key id="2" time="347">
+                    <object folder="1" file="0" x="-537.930577" y="-79.600369" scale_x="0.97218" scale_y="-0.104317"/>
+                </key>
+                <key id="3" time="500">
+                    <object folder="1" file="0" x="-537.930577" y="-920" angle="0" scale_x="0.97218" scale_y="-1.070091"/>
+                </key>
+                <key id="4" time="775" spin="0">
+                    <object folder="1" file="0" x="-537.930577" y="9.791669" scale_x="0.97218" scale_y="-0.000364"/>
+                </key>
+                <key id="5" time="822" spin="0">
+                    <object folder="1" file="1" x="-537.930577" y="168.701518" scale_x="0.97218" scale_y="0.182462"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="5" name="blue-butterfly-top-down">
+        <character_map id="0" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="3" target_folder="4" target_file="3"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+        </character_map>
+        <character_map id="1" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="3" target_folder="1" target_file="3"/>
+        </character_map>
+        <character_map id="2" name="white">
+            <map folder="0" file="3" target_folder="2" target_file="3"/>
+            <map folder="0" file="2" target_folder="2" target_file="0"/>
+            <map folder="0" file="1" target_folder="2" target_file="1"/>
+            <map folder="0" file="0" target_folder="2" target_file="2"/>
+        </character_map>
+        <character_map id="3" name="purple">
+            <map folder="0" file="2" target_folder="3" target_file="0"/>
+            <map folder="0" file="1" target_folder="3" target_file="1"/>
+            <map folder="0" file="3" target_folder="3" target_file="3"/>
+            <map folder="0" file="0" target_folder="3" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-517.903226" y="1117.063121" angle="0" scale_y="1.167876"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="0" file="2" x="-517.903226" y="58.84602" angle="0" scale_y="-0.04498"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-down-body">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-313.935855" y="171.203189" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="top-wing_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-513.602151" y="-976.470588" angle="0" scale_y="-1.164761"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="0" file="2" x="-513.602151" y="29.411765" angle="0" scale_y="-0.033639"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="6" name="purple-butterfly-top-down">
+        <character_map id="0" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="3" target_folder="4" target_file="3"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+        </character_map>
+        <character_map id="1" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="3" target_folder="1" target_file="3"/>
+        </character_map>
+        <character_map id="2" name="white">
+            <map folder="0" file="3" target_folder="2" target_file="3"/>
+            <map folder="0" file="2" target_folder="2" target_file="0"/>
+            <map folder="0" file="1" target_folder="2" target_file="1"/>
+            <map folder="0" file="0" target_folder="2" target_file="2"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="3" file="0" x="-517.903226" y="1117.063121" angle="0" scale_y="1.167876"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="3" file="0" x="-517.903226" y="58.84602" angle="0" scale_y="-0.04498"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-down-body">
+                <key id="0" spin="0">
+                    <object folder="3" file="3" x="-313.935855" y="171.203189" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="top-wing_000">
+                <key id="0" spin="0">
+                    <object folder="3" file="0" x="-513.602151" y="-976.470588" angle="0" scale_y="-1.164761"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="3" file="0" x="-513.602151" y="29.411765" angle="0" scale_y="-0.033639"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="7" name="white-butterfly-top-down">
+        <character_map id="0" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="3" target_folder="4" target_file="3"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+        </character_map>
+        <character_map id="1" name="orange">
+            <map folder="0" file="2" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="3" target_folder="1" target_file="3"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-517.903226" y="1117.063121" angle="0" scale_y="1.167876"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="2" file="0" x="-517.903226" y="58.84602" angle="0" scale_y="-0.04498"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-down-body">
+                <key id="0" spin="0">
+                    <object folder="2" file="3" x="-313.935855" y="171.203189" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="top-wing_000">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-513.602151" y="-976.470588" angle="0" scale_y="-1.164761"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="2" file="0" x="-513.602151" y="29.411765" angle="0" scale_y="-0.033639"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="8" name="orange-butterfly-top-down">
+        <character_map id="0" name="yellow">
+            <map folder="0" file="2" target_folder="4" target_file="0"/>
+            <map folder="0" file="3" target_folder="4" target_file="3"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+        </character_map>
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-517.903226" y="1117.063121" angle="0" scale_y="1.167876"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="1" file="0" x="-517.903226" y="58.84602" angle="0" scale_y="-0.04498"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-down-body">
+                <key id="0" spin="0">
+                    <object folder="1" file="3" x="-313.935855" y="171.203189" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="top-wing_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-513.602151" y="-976.470588" angle="0" scale_y="-1.164761"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="1" file="0" x="-513.602151" y="29.411765" angle="0" scale_y="-0.033639"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="9" name="yellow-butterfly-top-down">
+        <animation id="0" name="flying" length="1000" interval="62">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="top-wing">
+                <key id="0" spin="0">
+                    <object folder="4" file="0" x="-517.903226" y="1117.063121" angle="0" scale_y="1.167876"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="4" file="0" x="-517.903226" y="58.84602" angle="0" scale_y="-0.04498"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="top-down-body">
+                <key id="0" spin="0">
+                    <object folder="4" file="3" x="-313.935855" y="171.203189" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="top-wing_000">
+                <key id="0" spin="0">
+                    <object folder="4" file="0" x="-513.602151" y="-976.470588" angle="0" scale_y="-1.164761"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="4" file="0" x="-513.602151" y="29.411765" angle="0" scale_y="-0.033639"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

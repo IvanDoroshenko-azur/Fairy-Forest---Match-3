@@ -1,0 +1,1 @@
+c:\Program Files\Unity\Hub\Editor\2019.3.12f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin>"c:\Program Files\Unity\Hub\Editor\2019.3.12f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\sdkmanager.bat" "platforms;android-29"

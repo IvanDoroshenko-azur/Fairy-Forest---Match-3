@@ -1,0 +1,32 @@
+It is complete pack of Match-3 game GUI with premade game screens, maps, pop ups, field items, GUI elements, icons,
+backgrounds in casual, forest, wood, colorful style for your mobile/web/video game. 
+
+All graphics in high resolution (2732px * 2048px) ready for retina display!
+Create you project for the moment!
+
+This pack includes:
+ - Premade Game screen in PSD and PNG. 
+100% editable, 2732 X 2048. All elements are also in PNG, ready for code.
+ - 6 Premade Backgrounds for Game screen in PNG, 2736 X 2048.
+ - Premade Load screen in PNG, 2736 X 2048.
+ - Premade Map screen for 120 levels in PSD and PNG. 
+100% editable, 2732 X 2048. 
+   All elements also in PNG, ready for code. 
+ - 6 Premade Backgrounds for the Map screen in PNG, 2732 X 2048.
+ - 40 PNG and PSD field items, ready for code. 
+ - 9 Premade Menu Pop Up (Settings, Win, Loose, Shop, Exit, Paused, Mission, Login, Sign up) in 
+100% editable PSD. 
+   All elements also in PNG, ready for code.
+ - Premade GUI elements, including hover effects in PNG and PSD. 
+100% editable with different styles.
+ - Premade Small and Big Square buttons with icons, including hover effects in PNG. 
+ - 50 icons for buttons and GUI in PNG and PSD files. 
+
+Font is not included. In the examples - FREE Berlin Sans FB Bold. 
+You can find it there: https://www.microsoft.com/typography/Fonts/font.aspx?FMID=562
+
+It is also possible to fix some features or to sell new GUI and theme designs. 
+If you are interested, please contact us individually. 
+
+Homepage : http://mkeystudio.com/
+Email: info@mkeystudio.com

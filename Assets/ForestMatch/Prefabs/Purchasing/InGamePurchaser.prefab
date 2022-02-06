@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5306095726054377958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5306095726054377959}
+  - component: {fileID: 8874096823139687849}
+  - component: {fileID: 2575577976033367213}
+  m_Layer: 0
+  m_Name: InGamePurchaser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5306095726054377959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5306095726054377958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 810.9899, y: 1008.53076, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8874096823139687849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5306095726054377958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5812d94a29c3b740971570e375554a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameProducts:
+  - name: Color Bomb
+    thingImage: {fileID: 21300000, guid: b2ec8e89cc28f98449f3fb51651a9405, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300000
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Color Bomb
+    thingImage: {fileID: 21300000, guid: b2ec8e89cc28f98449f3fb51651a9405, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300000
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Shuffle
+    thingImage: {fileID: 21300000, guid: 0e4f1169b4b24a24c8bb864761a27e8a, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300002
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Shuffle
+    thingImage: {fileID: 21300000, guid: 0e4f1169b4b24a24c8bb864761a27e8a, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300002
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Moves plus 5
+    thingImage: {fileID: 21300000, guid: 9cdcf310fe36aca41b08e885438ae32a, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300001
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Moves plus 5
+    thingImage: {fileID: 21300000, guid: 9cdcf310fe36aca41b08e885438ae32a, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300001
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Time plus 30
+    thingImage: {fileID: 21300000, guid: 87b23963aebe7a14f87379eaf32c7219, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300003
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Time plus 30
+    thingImage: {fileID: 21300000, guid: 87b23963aebe7a14f87379eaf32c7219, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300003
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Explosive
+    thingImage: {fileID: 21300000, guid: 29080b2bed320e0458a2074deb32deb2, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300004
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Explosive
+    thingImage: {fileID: 21300000, guid: 29080b2bed320e0458a2074deb32deb2, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300004
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Magnet
+    thingImage: {fileID: 21300000, guid: 92fda8b79c8805041b6c1c09a2eb3520, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300005
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Magnet
+    thingImage: {fileID: 21300000, guid: 92fda8b79c8805041b6c1c09a2eb3520, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300005
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Bomb
+    thingImage: {fileID: 21300000, guid: 7190c23b10764084ab57a912aac391cc, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300006
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Bomb
+    thingImage: {fileID: 21300000, guid: 7190c23b10764084ab57a912aac391cc, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300006
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Hammer
+    thingImage: {fileID: 21300000, guid: d519a9137530362449de1dba3773a435, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300007
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Hammer
+    thingImage: {fileID: 21300000, guid: d519a9137530362449de1dba3773a435, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300007
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Wand
+    thingImage: {fileID: 21300000, guid: fb23d861a5011164083b392fb4f8c89e, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1
+    thingCountText: x 1
+    thingCountOldText: 
+    thingPrice: 5
+    thingPriceText: 5
+    kProductID: 300008
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+  - name: Wand
+    thingImage: {fileID: 21300000, guid: fb23d861a5011164083b392fb4f8c89e, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 5
+    thingCountText: x 5
+    thingCountOldText: 
+    thingPrice: 10
+    thingPriceText: 10
+    kProductID: 300008
+    prefab: {fileID: 1904001098064614, guid: 37c4e342e6f803e45ae331a01fa08851, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+--- !u!114 &2575577976033367213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5306095726054377958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47521743433cfa84f9eb58296ca58b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroy: 1

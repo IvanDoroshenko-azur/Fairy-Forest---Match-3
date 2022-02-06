@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey.LevelConstructSet 142
+  m_EditorClassIdentifier: 
+  textTutorial: 
+  OffMatch_ID: eb0300000000000000000000ec030000000000000000000000000000
+  vertSize: 10
+  horSize: 9
+  distX: 0
+  distY: 0
+  scale: 0.90000004
+  backGroundNumber: 1
+  levelMission:
+    description: Mission
+    timeConstrain: 0
+    movesConstrain: 21
+    scoreTarget: 0
+    targets:
+      list:
+      - id: 1006
+        count: 0
+      - id: 1005
+        count: 0
+      - id: 1001
+        count: 0
+      - id: 100004
+        count: 22
+  tutorialPos: []
+  tutorialCells: []
+  matchedCells: []
+  bombsCells: []
+  blockedCells:
+  - id: 1005
+    row: 0
+    column: 9
+  - id: 1005
+    row: 3
+    column: 9
+  - id: 1005
+    row: 4
+    column: 9
+  - id: 1005
+    row: 1
+    column: 9
+  - id: 1005
+    row: 8
+    column: 9
+  - id: 1005
+    row: 6
+    column: 9
+  - id: 1005
+    row: 9
+    column: 9
+  - id: 1006
+    row: 7
+    column: 9
+  - id: 1006
+    row: 5
+    column: 9
+  - id: 1006
+    row: 2
+    column: 9
+  disabledCells:
+  - id: 1
+    row: 1
+    column: 8
+  - id: 1
+    row: 8
+    column: 8
+  - id: 1
+    row: 6
+    column: 8
+  - id: 1
+    row: 5
+    column: 8
+  - id: 1
+    row: 4
+    column: 8
+  - id: 1
+    row: 3
+    column: 8
+  featuredCells: []
+  fallingCells: []
+  overlayCells:
+  - id: 100004
+    row: 1
+    column: 3
+  - id: 100004
+    row: 1
+    column: 4
+  - id: 100004
+    row: 1
+    column: 5
+  - id: 100004
+    row: 1
+    column: 6
+  - id: 100004
+    row: 3
+    column: 3
+  - id: 100004
+    row: 4
+    column: 3
+  - id: 100004
+    row: 3
+    column: 5
+  - id: 100004
+    row: 3
+    column: 6
+  - id: 100004
+    row: 3
+    column: 1
+  - id: 100004
+    row: 4
+    column: 1
+  - id: 100004
+    row: 5
+    column: 1
+  - id: 100004
+    row: 6
+    column: 1
+  - id: 100004
+    row: 1
+    column: 1
+  - id: 100004
+    row: 6
+    column: 3
+  - id: 100004
+    row: 5
+    column: 6
+  - id: 100004
+    row: 6
+    column: 6
+  - id: 100004
+    row: 8
+    column: 3
+  - id: 100004
+    row: 8
+    column: 4
+  - id: 100004
+    row: 8
+    column: 5
+  - id: 100004
+    row: 8
+    column: 6
+  - id: 100004
+    row: 6
+    column: 4
+  - id: 100004
+    row: 8
+    column: 1
+  underlayCells: []

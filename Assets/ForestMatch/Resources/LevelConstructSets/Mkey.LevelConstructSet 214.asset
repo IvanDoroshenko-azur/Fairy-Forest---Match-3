@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey.LevelConstructSet 214
+  m_EditorClassIdentifier: 
+  textTutorial: To break this item, collect 3 in a row next to it
+  OffMatch_ID: e903000000000000ee03000000000000000000000000000000000000
+  vertSize: 7
+  horSize: 7
+  distX: 0
+  distY: 0
+  scale: 0.9
+  backGroundNumber: 3
+  levelMission:
+    description: To break this item, collect 3 in a row next to it
+    timeConstrain: 0
+    movesConstrain: 18
+    scoreTarget: 0
+    targets:
+      list:
+      - id: 100005
+        count: 14
+  tutorialPos:
+  - {x: -1.4580001, y: 4.374}
+  - {x: -0.00000010728836, y: 4.374}
+  - {x: -0.00000010728836, y: 2.9160001}
+  - {x: -0.00000010728836, y: 1.4580001}
+  - {x: -0.00000010728836, y: 0.00000010728836}
+  - {x: -1.4580001, y: 4.374}
+  - {x: -0.00000010728836, y: 4.374}
+  tutorialCells:
+  - id: 200
+    row: 0
+    column: 2
+  - id: 200
+    row: 0
+    column: 3
+  - id: 200
+    row: 1
+    column: 3
+  - id: 200
+    row: 2
+    column: 3
+  - id: 200
+    row: 3
+    column: 3
+  - id: 201
+    row: 0
+    column: 2
+  - id: 201
+    row: 0
+    column: 3
+  matchedCells:
+  - id: 1005
+    row: 2
+    column: 3
+  - id: 1005
+    row: 1
+    column: 3
+  - id: 1005
+    row: 0
+    column: 2
+  - id: 1004
+    row: 0
+    column: 3
+  - id: 1004
+    row: 2
+    column: 2
+  - id: 1000
+    row: 1
+    column: 2
+  - id: 1000
+    row: 2
+    column: 4
+  - id: 1002
+    row: 1
+    column: 4
+  bombsCells: []
+  blockedCells: []
+  disabledCells:
+  - id: 1
+    row: 0
+    column: 0
+  - id: 1
+    row: 0
+    column: 1
+  - id: 1
+    row: 0
+    column: 5
+  - id: 1
+    row: 0
+    column: 6
+  - id: 1
+    row: 1
+    column: 0
+  - id: 1
+    row: 1
+    column: 1
+  - id: 1
+    row: 1
+    column: 5
+  - id: 1
+    row: 1
+    column: 6
+  featuredCells: []
+  fallingCells: []
+  overlayCells:
+  - id: 100005
+    row: 3
+    column: 2
+  - id: 100005
+    row: 3
+    column: 4
+  - id: 100005
+    row: 3
+    column: 0
+  - id: 100005
+    row: 3
+    column: 1
+  - id: 100005
+    row: 3
+    column: 3
+  - id: 100005
+    row: 3
+    column: 5
+  - id: 100005
+    row: 3
+    column: 6
+  - id: 100005
+    row: 4
+    column: 0
+  - id: 100005
+    row: 4
+    column: 1
+  - id: 100005
+    row: 4
+    column: 2
+  - id: 100005
+    row: 4
+    column: 3
+  - id: 100005
+    row: 4
+    column: 4
+  - id: 100005
+    row: 4
+    column: 5
+  - id: 100005
+    row: 4
+    column: 6
+  underlayCells: []

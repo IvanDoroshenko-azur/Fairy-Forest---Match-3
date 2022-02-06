@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cfd7d6872570bf74f9163d4450a9241b
+timeCreated: 1491901461
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RedFlowers
+  fontNames:
+  - RedFlowers
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
