@@ -357,14 +357,14 @@ namespace Mkey
                     {
                         if (k == 0)
                         {
-                            if (!Cells[count].Blocked && !Cells[count].IsDisabled && ((Cells[count].Overlay != null) ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
+                            if (!Cells[count].Blocked && !Cells[count].IsDisabled && (Cells[count].Overlay != null ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
                                 check[count] = 1;
                             else
                                 check[count] = -2;
                         }
                         else
                         {
-                            if (!Cells[count].Blocked && !Cells[count].IsDisabled && ((Cells[count].Overlay != null) ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
+                            if (!Cells[count].Blocked && !Cells[count].IsDisabled && (Cells[count].Overlay != null ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
                             {
                                 check[count] = 1;
                                 if (check[count - 1] == -1) //  Если сосед слева из черного, то переводим его в белый
@@ -393,7 +393,7 @@ namespace Mkey
                     }
                     else if (k == 0)
                     {
-                        if (!Cells[count].Blocked && !Cells[count].IsDisabled && ((Cells[count].Overlay != null) ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
+                        if (!Cells[count].Blocked && !Cells[count].IsDisabled && (Cells[count].Overlay != null ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
                         {
                             if (check[count - Cells[0].GRow.Length] == 1) // Если ли сверху сосед из белого списка
                                 check[count] = 1;
@@ -405,7 +405,7 @@ namespace Mkey
                     }
                     else
                     {
-                        if (!Cells[count].Blocked && !Cells[count].IsDisabled && ((Cells[count].Overlay != null) ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
+                        if (!Cells[count].Blocked && !Cells[count].IsDisabled && (Cells[count].Overlay != null ? Cells[count].Overlay.CanSkip : true)) // Если свободен?
                         {
                             if (check[count - Cells[0].GRow.Length] == 1) // Если ли сверху сосед из белого списка
                             {
@@ -446,23 +446,12 @@ namespace Mkey
 
             for (int i = 0; i < Cells.Count; i++)
                 if (check[i] == 1)
-                    if (Cells[i].IsDynamicFree && !Cells[i].Blocked && !Cells[i].IsDisabled && ((Cells[i].Overlay != null) ? Cells[i].Overlay.CanSkip : true))
+                    if (Cells[i].IsDynamicFree && !Cells[i].Blocked && !Cells[i].IsDisabled && (Cells[i].Overlay != null ? Cells[i].Overlay.CanSkip : true))
                         gcL.Add(Cells[i]);     
 
             return gcL;
         }
 
-        // count = Cells.Count;
-        /////////////////////////////////////////////////////////////
-        //for (int i = 0; i < count; i++)//Cells.Count; i++)
-        //{////////
-        //    if (Cells[i].IsDynamicFree && !Cells[i].Blocked && !Cells[i].IsDisabled && ((Cells[i].Overlay != null)? Cells[i].Overlay.CanSkip : true))//(Cells[i].Overlay != null ? Cells[i].Overlay.CanSkip : true))
-        //    {
-        //        gcL.Add(Cells[i]);
-        //    }
-        //}
-        // return gcL;
-        // }
 
         /// <summary>
         /// Return objects count on grid with selected ID

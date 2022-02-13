@@ -657,14 +657,15 @@ namespace Mkey
         {
             if (Overlay)
             {
-                DirectHitOverlay(()=>completeCallBack(), true);
-              //  completeCallBack?.Invoke();
-                return;
+                DirectHitOverlay(null, true);
+                completeCallBack?.Invoke();
+                if(!Overlay.CanSkip) return;
             }     
 
             if (HasBomb)
             {
                 ExplodeBomb(delay, showBombExplode, showWhirlWind, true, dragExplode, true, false, completeCallBack);
+                return;
             }
 
             if (!Match)

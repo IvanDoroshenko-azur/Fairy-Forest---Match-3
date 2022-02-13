@@ -19,7 +19,7 @@ MonoBehaviour:
   distX: 0
   distY: 0
   scale: 0.9
-  backGroundNumber: 0
+  backGroundNumber: 2
   levelMission:
     description: Mission
     timeConstrain: 0

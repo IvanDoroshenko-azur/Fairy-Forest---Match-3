@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 4.1
+  bundleVersion: 4.2
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -173,7 +173,7 @@ PlayerSettings:
     Android: com.WhiteSarcazm.ForestMatch3
     Standalone: com.mkey.ForestMatch3
   buildNumber: {}
-  AndroidBundleVersionCode: 41
+  AndroidBundleVersionCode: 42
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 30
   AndroidPreferredInstallLocation: 1

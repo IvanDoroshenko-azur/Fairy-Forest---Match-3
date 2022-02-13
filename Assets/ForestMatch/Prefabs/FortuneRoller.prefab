@@ -880,7 +880,7 @@ MonoBehaviour:
   txtPrise: {fileID: 4478779606488531383}
   imgPrise: {fileID: 3341694625775144028}
   butPrise: {fileID: 2889326523193866088}
-  _clipWin: {fileID: 8300000, guid: 33db6530df0ceca4d999a08b5316e933, type: 3}
+  _clipWin: {fileID: 8300000, guid: e2b6909adfdc25941a414b7d4fb99f3e, type: 3}
   objFortune:
   - {fileID: 3999135260708050844}
   - {fileID: 8352001267639632194}

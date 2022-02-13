@@ -1290,59 +1290,6 @@ namespace Mkey
                         AddRange(mgList_t);
                     }
                 });
-                //////////////////////////////////////////
-                //grid.Rows.ForEach((br) =>
-                //{
-                //    List<MatchGroup> mgList_t = br.GetMatches(2, false);
-                //    if (mgList_t != null && mgList_t.Count > 0)
-                //    {
-                //        AddRange(mgList_t);
-                //    }
-                //});
-
-                //grid.Columns.ForEach((bc) =>
-                //{
-                //    List<MatchGroup> mgList_t = bc.GetMatches(2, false);
-                //    if (mgList_t != null && mgList_t.Count > 0)
-                //    {
-                //        AddRange(mgList_t);
-                //    }
-                //});
-
-                //MatchGroup mg = new MatchGroup();
-
-                //if (mgList.Count >= 2)
-                //    for (int i = 0; i < mgList.Count - 1; i++)
-                //    {
-                //        for (int j = i + 1; j < mgList.Count; j++)
-                //        {
-                //            if (mgList[i].Cells[0].Row + 1 == mgList[j].Cells[0].Row)
-                //                if ((mgList[i].Cells[0].Column == mgList[j].Cells[0].Column) && mgList[i].Cells[0].IsMatchObjectEquals(mgList[j].Cells[0]))
-                //                    if ((mgList[i].Cells[1].Column == mgList[j].Cells[1].Column) && mgList[i].Cells[1].IsMatchObjectEquals(mgList[j].Cells[1]))
-                //                    {
-                //                        mg.Add(mgList[i].Cells[0]);
-                //                        mg.Add(mgList[i].Cells[1]);
-                //                        mg.Add(mgList[j].Cells[0]);
-                //                        mg.Add(mgList[j].Cells[1]);
-
-                //                        mgList.RemoveAt(0);
-                //                        mgList.RemoveAt(0);
-                //                        mgList.Add(mg);
-                //                        // i--;
-                //                        mg = new MatchGroup();
-                //                    }
-                //        }
-                //    }
-
-                //for (int i = 0; i < mgList.Count; i++)
-                //{
-                //    if (mgList[i].Length <= 2)
-                //    {
-                //        mgList.RemoveAt(i);
-                //        i--;
-                //    }
-                //}
-                /////////////////////////////////////
             }
             else
             {

@@ -272,6 +272,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1e8dde98c646d5643afc39a23f4ae639, type: 2}
   - {fileID: 11400000, guid: 25868acc45357c34193b362f9bdf23ab, type: 2}
   - {fileID: 11400000, guid: 6a21d221ee94e8b4592576eab970a561, type: 2}
+  - {fileID: 11400000, guid: c1735509795380a4fbf64181e3724326, type: 2}
+  - {fileID: 11400000, guid: 9ef540f7133cd514d921a235611598a6, type: 2}
+  - {fileID: 11400000, guid: 4f2ca4af74602d148b28d5de72d06582, type: 2}
+  - {fileID: 11400000, guid: 6c06bdbcf0e2f9a41ae872e35533d97e, type: 2}
+  - {fileID: 11400000, guid: 0ee3fc09791fe084380281a6a19d25bf, type: 2}
+  - {fileID: 11400000, guid: f3afbd2ded49f5041952812fabc812ff, type: 2}
+  - {fileID: 11400000, guid: b609a423bb00c4f4f9f74424b1110884, type: 2}
+  - {fileID: 11400000, guid: b35b37cd66f29864fbeaccdb267699fc, type: 2}
+  - {fileID: 11400000, guid: d9c1abb86c0290b41867ee9c0ee8fb06, type: 2}
   gift:
     life: 0
     coins: 0

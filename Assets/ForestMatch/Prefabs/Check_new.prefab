@@ -69,7 +69,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 2da1e4395baa7014498cc7bb4f57a6d4, type: 3}
     m_FontSize: 70
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 7
     m_MaxSize: 80
     m_Alignment: 4
@@ -495,8 +495,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: -21}
-  m_SizeDelta: {x: -40, y: 230.1}
+  m_AnchoredPosition: {x: -1.0007935, y: -0.000083923}
+  m_SizeDelta: {x: -42.001648, y: 137.3307}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5361992235646180036
 CanvasRenderer:
@@ -527,16 +527,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2da1e4395baa7014498cc7bb4f57a6d4, type: 3}
-    m_FontSize: 45
+    m_FontSize: 52
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 5
     m_MaxSize: 80
-    m_Alignment: 1
-    m_AlignByGeometry: 0
+    m_Alignment: 4
+    m_AlignByGeometry: 1
     m_RichText: 0
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New levels will appear in the near future
 --- !u!114 &8763552183198773512
